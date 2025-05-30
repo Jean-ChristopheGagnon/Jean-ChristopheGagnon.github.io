@@ -3,71 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        .container {
-            padding: 2rem;
-        }
-    </style>
+    <title>Our Cleaning Services</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <header>
-        <h1>Welcome to Your Website</h1>
+        <h1>Our Cleaning Services</h1>
     </header>
 
     <nav>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About Us</a>
-        <a href="#translate">Language Translator</a>
+        <a href="index.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
     </nav>
 
     <div class="container">
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Describe the services you offer here.</p>
-        </section>
+        <h2>Comprehensive Cleaning Solutions</h2>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Provide your contact details or a contact form here.</p>
-        </section>
+        <div class="card-container">
+            <div class="card">
+                <img src="building-wash.jpg" alt="Building Wash">
+                <h3>Building Wash</h3>
+                <p>Thorough exterior cleaning for residential and commercial buildings.</p>
+            </div>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Introduce your company or yourself here.</p>
-        </section>
+            <div class="card">
+                <img src="surface-cleaning.jpg" alt="Surface Cleaning">
+                <h3>Surface Cleaning</h3>
+                <p>Deep cleaning for various surfaces, restoring their original finish.</p>
+            </div>
 
-        <section id="translate">
-            <h2>Language Translator</h2>
-            <p>Implement a simple translation tool using Google Translate API or another service.</p>
-        </section>
+            <div class="card">
+                <img src="stain-removal.png" alt="Stain Removal">
+                <h3>Stain Removal</h3>
+                <p>Effective removal of tough stains from different surfaces.</p>
+            </div>
+
+            <div class="card">
+                <img src="patio-wash.jpg" alt="Patio Wash">
+                <h3>Patio Wash</h3>
+                <p>Gentle yet powerful cleaning to restore outdoor patio spaces.</p>
+            </div>
+
+            <div class="card">
+                <img src="graffiti-removal.jpg" alt="Graffiti Removal">
+                <h3>Graffiti Removal</h3>
+                <p>Expert removal of graffiti without damaging surfaces.</p>
+            </div>
+
+            <div class="card">
+                <img src="car-wash.jpg" alt="Car Wash">
+                <h3>Car Wash</h3>
+                <p>Bringing the Sparkle Back to Your Wheels!</p>
+            </div>
+        </div>
     </div>
 
 </body>
